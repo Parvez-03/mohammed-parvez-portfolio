@@ -3,29 +3,25 @@ import FadeIn from "./FadeIn";
 const services = [
   {
     n: "01",
-    name: "3D Modeling",
+    name: "Web Designing",
     desc: "Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.",
   },
   {
     n: "02",
-    name: "Rendering",
-    desc: "High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.",
+    name: "SEO & Digital Marketing",
+    desc: "Get found first on Google with our targeted SEO strategies and digital marketing campaigns.",
   },
   {
     n: "03",
-    name: "Motion Design",
-    desc: "Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.",
+    name: "Ai agents & Automation",
+    desc: "smart chatbots for you business and save hours with smart workflows.",
   },
   {
     n: "04",
     name: "Branding",
     desc: "Crafting cohesive visual identities — from logos to full brand systems — that communicate a clear and memorable presence.",
   },
-  {
-    n: "05",
-    name: "Web Design",
-    desc: "Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.",
-  },
+  
 ];
 
 export function ServicesSection() {

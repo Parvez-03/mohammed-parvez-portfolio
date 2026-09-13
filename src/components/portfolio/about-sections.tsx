@@ -79,7 +79,7 @@ export function StorySection() {
           <img
             src={portrait}
             alt="Mohammed Parvez at his desk"
-            loading="lazy"
+            loading="eager"
             width={1024}
             height={1280}
             className="aspect-[4/5] w-full rounded-[40px] object-cover"
@@ -89,9 +89,16 @@ export function StorySection() {
 
       <div className="flex flex-col justify-center">
         <AnimatedText
-          className="max-w-[520px] font-medium leading-relaxed text-[#D7E2EA]"
-          style={{ fontSize: "clamp(1rem, 2vw, 1.4rem)" }}
-          text="I'm Mohammed Parvez, a full-stack developer working across HTML, CSS, JavaScript, React, Python, PHP, Django, and SQL. I got into this because coding is genuinely fun — that curiosity turned into two ventures: CodeCrafter, a digital agency helping small and local businesses grow online, and TranspiraTech, a smart glass and transparent display technology company based in Udaipur, Rajasthan. I'm still early in my career, building real things and learning fast, one project at a time."
+          className="max-w-[100px] font-medium leading-relaxed text-[#D7E2EA]"
+          style={{ fontSize: "clamp(1rem, 2vw, 1.4rem);" }}
+          text="I'm Mohammed Parvez, a full-stack developer
+          working across HTML, CSS, JavaScript, React, Python, PHP,
+         Django, and SQL. I got into this because coding is genuinely fun — that
+         curiosity turned into two ventures: CodeCrafter, a digital agency helping
+         small and local businesses grow online, and TranspiraTech, a smart glass
+         and transparent display technology company based in Udaipur, Rajasthan.
+         I'm still early in my career, building real things and learning fast,
+         one project at a time."
         />
 
         <div className="mt-12 flex flex-wrap gap-10">
